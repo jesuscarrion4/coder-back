@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "moka molido",
+    "description": "ganos",
+    "price": 3.99,
+    "thumbnail": "img/moka.jpg",
+    "code": "5679",
+    "stock": 5
+  },
+  {
+    "id": 1,
+    "title": "cafe americano",
+    "description": "granos",
+    "price": 2.99,
+    "thumbnail": "img/cafe.jpg",
+    "code": "5679",
+    "stock": 10
+  }
+]
