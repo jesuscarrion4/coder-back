@@ -1,8 +1,8 @@
-import fs from 'fs'
+const fs = require("fs"); 
 
 class ProductManager {
   constructor(path) {
-    this.path = path;
+    this.path = './data.json';
     this.products = this.leerProductos();
     this.nextId = 1;
   }
@@ -102,7 +102,7 @@ manager.addProduct({
   description: "granos",
   price: 2.99,
   thumbnail: "img/cafe.jpg",
-  code: "5679",
+  code: "5678",
   stock: 10,
 });
 
@@ -116,8 +116,10 @@ manager.updateProduct(1, {
   description: "ganos",
   price: 3.99,
   thumbnail: "img/moka.jpg",
-  code: "5679",
+  code: "5678",
   stock: 5,
 });
 
 manager.deleteProduct(2);
+
+module.exports = ProductManager;

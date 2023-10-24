@@ -1,11 +1,19 @@
 [
   {
+    "title": "cafe americano",
+    "description": "nuevo producto",
+    "price": 3.99,
+    "thumbnail": "img/nuevo_producto.jpg",
+    "code": "9876",
+    "stock": 5
+  },
+  {
     "id": 1,
     "title": "moka molido",
     "description": "ganos",
     "price": 3.99,
     "thumbnail": "img/moka.jpg",
-    "code": "5679",
+    "code": "5678",
     "stock": 5
   },
   {
@@ -14,7 +22,7 @@
     "description": "granos",
     "price": 2.99,
     "thumbnail": "img/cafe.jpg",
-    "code": "5679",
+    "code": "5678",
     "stock": 10
   }
 ]
