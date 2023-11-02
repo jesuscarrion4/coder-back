@@ -1,0 +1,10 @@
+[
+  {
+    "title": "cafe americano",
+    "description": "nuevo producto",
+    "price": 3.99,
+    "thumbnail": "img/nuevo_producto.jpg",
+    "code": "9876",
+    "stock": 5
+  }
+]
